@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+
 
 ## cache the inverse of an invertible matrix
 
@@ -16,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Check if inverse on=f an invertible matrix is in the cache. If not, calculate the inverse
+## Check if inverse of an invertible matrix is in the cache. If not, calculate the inverse
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
